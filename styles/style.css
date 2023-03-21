@@ -1,0 +1,65 @@
+.box {
+    display: none;
+    height: 900px;
+    width: 900px;
+    border:2px solid black;
+    margin: 5px;
+}
+
+
+@media screen and (min-width:425px){
+    .box1 {
+        display: block;
+        background-color: violet;
+    }
+}
+
+@media screen and (min-width:768px){
+    
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: block;
+        background-color: indigo;
+    }
+}
+
+@media screen and (min-width:1024px){
+    
+
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    .box3 {
+        display: block;
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:1440px){
+    
+
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    .box3 {
+        display:none
+    }
+
+    .box4 {
+        display: block;
+        background-color: green;
+    }
+}
